@@ -833,7 +833,7 @@ legend {
 	font-size: .8rem;
 	height: 1.8rem;
 	line-height: 1.2rem;
-	max-width: 100%;
+	max-width:58%;
 	outline: 0;
 	padding: .25rem .4rem;
 	position: relative;
@@ -3532,7 +3532,7 @@ a.text-error:visited {
 }
 
 .mr-2 {
-	margin-right: 1rem!important
+	margin-right: 2rem!important
 }
 
 .mt-2 {
