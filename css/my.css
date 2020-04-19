@@ -2,7 +2,7 @@
 .start{
 	color: aliceblue;
 	display: inline-block;
-	font-size: .62rem;
+	font-size: .5rem;
 	letter-spacing: .1rem;
 	margin: .1rem .2rem;
 	padding: .1rem .2rem;
@@ -111,7 +111,7 @@
 	
 	position: fixed;
 	top: 0;
-	bottom: 70%;
+	bottom: 80%;
 	z-index: 1; 
 }
 
