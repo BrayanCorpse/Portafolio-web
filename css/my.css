@@ -2,10 +2,10 @@
 .start{
 	color: aliceblue;
 	display: inline-block;
-	font-size: .9rem;
-	letter-spacing: 4px;
+	font-size: .6rem;
+	letter-spacing: .2rem;
 	margin: .1rem .2rem;
-	padding: 2px 5px;
+	padding: .1rem .2rem;
 	position: relative;
 	overflow: hidden;
 	text-decoration: none;
@@ -109,11 +109,11 @@
 
 #nav{
 	
-	/*position: fixed;
+	/* position: fixed;
 	top: 0;
 	bottom: 25rem;
 	width: 50rem;
-	z-index: 1;*/
+	z-index: 1; */
 }
 
 p{

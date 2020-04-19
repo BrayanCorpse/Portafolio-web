@@ -2014,13 +2014,15 @@ video.video-responsive::before {
 }
 
 .navbar .navbar-center {
-	align-items: center;
+	align-items: right;
 	display: flex;
 	display: -ms-flexbox;
 	-ms-flex: 0 0 auto;
 	flex: 0 0 auto;
-	-ms-flex-align: center
+	-ms-flex-align: center;
+
 }
+
 
 .navbar .navbar-brand {
 	font-size: .9rem;
