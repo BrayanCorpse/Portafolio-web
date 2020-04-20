@@ -683,6 +683,13 @@ html:lang(ko) {
 	color: aliceblue
 }
 
+.btn.btn-link-m {
+	background: 0 0;
+	border-color: transparent;
+	color: aliceblue;
+}
+
+
 .btn.btn-link.active,
 .btn.btn-link:active,
 .btn.btn-link:focus,
@@ -833,7 +840,7 @@ legend {
 	font-size: .8rem;
 	height: 1.8rem;
 	line-height: 1.2rem;
-	max-width:58%;
+	max-width:50%;
 	outline: 0;
 	padding: .25rem .4rem;
 	position: relative;
@@ -1428,6 +1435,12 @@ code {
 	max-width: 100%
 }
 
+.img-about {
+	display: block;
+	height: auto;
+	max-width: 150%
+}
+
 .img-fit-cover {
 	object-fit: cover
 }
@@ -2014,7 +2027,7 @@ video.video-responsive::before {
 }
 
 .navbar .navbar-center {
-	align-items: right;
+	align-items: center;
 	display: flex;
 	display: -ms-flexbox;
 	-ms-flex: 0 0 auto;

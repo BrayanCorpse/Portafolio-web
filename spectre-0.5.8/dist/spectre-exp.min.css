@@ -640,7 +640,7 @@
 }
 
 .off-canvas .off-canvas-sidebar {
-	background: #f7f8f9;
+	background-image: url(/Portafolio-web/img/max.jpg);
 	bottom: 0;
 	left: 0;
 	min-width: 10rem;
@@ -660,8 +660,8 @@
 }
 
 .off-canvas .off-canvas-overlay {
-	background: rgba(48, 55, 66, .1);
-	border-color: transparent;
+	/* background: rgba(48, 55, 66, .1); */
+	/* border-color: transparent; */
 	border-radius: 0;
 	bottom: 0;
 	display: none;
