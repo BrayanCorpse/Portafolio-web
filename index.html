@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="spectre-0.5.8/dist/spectre-exp.min.css">
     <link rel="stylesheet" href="spectre-0.5.8/dist/spectre-icons.min.css">
     <link rel="stylesheet" href="css/my.css">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>
@@ -138,7 +140,7 @@
 
         <strong> <h2 id="name">LET ME INTRODUCE MYSELF </h2></strong>
         
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates assumenda, cum explicabo dicta minima dolorem atque sit quis iusto quod hic. Fugiat commodi repudiandae amet eos libero inventore facilis. Enim.</p>
+        <p class="paragraf">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates assumenda, cum explicabo dicta minima dolorem atque sit quis iusto quod hic. Fugiat commodi repudiandae amet eos libero inventore facilis. Enim.</p>
 
         <button class="btn-w def">DOWNLOAD CV</button>
 
@@ -151,15 +153,17 @@
 
     <!-- grid offset example -->
 <div class="container">
+  <br>
+  <br>
   <div class="columns">
-
-    <div class="column col-3 col-mx-auto">
+    <div class="column col-6 col-mx-auto">
       <!-- center-aligned text -->
-      <strong>  <div class="text-center"><h4 id="name">SERVICES OFFERS</h4></div></strong> 
+      <strong>  <div class="text-center"><h2 id="name">SERVICES OFFERS</h2></div></strong> 
     </div>
       <div class="column col-12">
       <div class="text-center">
-        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour
+       <p class="paragraf">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour
+      </p> 
       </div>
       </div>
 
@@ -292,35 +296,78 @@
     </div>
   </div>
 
-
   </div>
   </div>  
 
   
-
- 
-  
-
-<!-- parallax -->
-
-  <div class="parallax">
-    <br>
-    <br>
-    <div class="parallax-top-left" tabindex="1"></div>
-    <div class="parallax-top-right" tabindex="2"></div>
-    <div class="parallax-bottom-left" tabindex="3"></div>
-    <div class="parallax-bottom-right" tabindex="4"></div>
-    <div class="parallax-content">
-      <div class="parallax-front">
-        <h2></h2>
+  <!-- grid offset example -->
+<div class="container" id="contact">
+  <br>
+  <br>
+  <div class="columns">
+    <div class="column col-4 col-mr-auto">  
+      <!-- panel -->
+      <div class="panel">
+        <div class="panel-header text-center">
+          <figure class="avatar avatar-lg"><img src="img/yo3.jpg" alt="Avatar"></figure>
+          <div class="panel-title h5 mt-10">Bruce Banner</div>
+          <div class="panel-subtitle">THE HULK</div>
+        </div>
+        <nav class="panel-nav">
+          <ul class="tab tab-block">
+            <li class="tab-item active"><a href="#panels">Profile</a></li>
+          </ul>
+        </nav>
+        <div class="panel-body">
+          <div class="tile tile-centered">
+            <div class="tile-content">
+              <div class="tile-title text-bold">E-mail</div>
+              <div class="tile-subtitle">bruce.banner@hulk.com</div>
+            </div>
+            <div class="tile-action">
+              <a href="mailto:" class="btn btn-link">
+                <i class="icon icon-2x icon-mail"></i>
+              </a>
+            </div>
+          </div>
+          <div class="tile tile-centered">
+            <div class="tile-content">
+              <div class="tile-title text-bold">Phone</div>
+              <div class="tile-subtitle">72-24-93-27-50</div>
+            </div>
+            <div class="tile-action">
+              <a href="tel:7223927962" class="btn btn-link">
+                <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
+              </a>
+              </a>
+            </div>
+          </div>
+          <div class="tile tile-centered">
+            <div class="tile-content">
+              <div class="tile-title text-bold">Location</div>
+              <div class="tile-subtitle">Col Agricola 52047, Lerma Mex.</div>
+            </div>
+            <div class="tile-action">
+              <a href="#contact" class="btn btn-link">
+                <i class="icon icon-2x icon-location" aria-hidden="true"></i>
+              </a>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="panel-footer">
+          <div class="input-group">
+            <input class="form-input" type="text" placeholder="Hello">
+            <button class="btn btn-primary input-group-btn">Send</button>
+          </div>
+        </div>
       </div>
-      <div class="parallax-back">
-        <img src="img/dev.png" class="img-responsive rounded" ...>
-      </div>
-    </div>
+<!-- end panel -->
   </div>
+</div>
 
   
+
 
 
 </div>
