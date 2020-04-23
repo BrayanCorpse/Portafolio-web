@@ -160,3 +160,7 @@ strong{
 	vertical-align: middle;
 	white-space: nowrap
 }
+
+.card-subtitle{
+	font-weight: lighter;
+}

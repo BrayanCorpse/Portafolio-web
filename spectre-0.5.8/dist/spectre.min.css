@@ -2334,7 +2334,7 @@ summary.accordion-header::-webkit-details-marker {
 .card .card-body,
 .card .card-footer,
 .card .card-header {
-	padding: .8rem;
+	padding: .6rem;
 	padding-bottom: 0
 }
 
@@ -3694,7 +3694,7 @@ a.text-error:visited {
 }
 
 .text-bold {
-	font-weight: 700
+	font-weight: bold;
 }
 
 .text-italic {
