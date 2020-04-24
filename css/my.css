@@ -164,3 +164,7 @@ strong{
 .card-subtitle{
 	font-weight: lighter;
 }
+
+.tile-subtitle,.panel-subtitle{
+	color: aliceblue;
+}

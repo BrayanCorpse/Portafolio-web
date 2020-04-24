@@ -2709,8 +2709,8 @@ summary.accordion-header::-webkit-details-marker {
 }
 
 .panel {
-	border: .05rem solid #dadee4;
-	background-color: #fff;
+	border: .1rem solid #5755d9;
+	background-color:transparent;
 	border-radius: .1rem;
 	display: flex;
 	display: -ms-flexbox;
@@ -3695,6 +3695,7 @@ a.text-error:visited {
 
 .text-bold {
 	font-weight: bold;
+	color: #5755d9;
 }
 
 .text-italic {
