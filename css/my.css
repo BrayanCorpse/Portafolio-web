@@ -97,7 +97,7 @@
 
 
 
-#name{
+.name{
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -171,6 +171,7 @@ strong{
 
 .v{
 	color:#5755d9;
+	font-family: 'Courier New', Courier, monospace;
 }
 
 /* social links */
@@ -182,7 +183,7 @@ strong{
 
 .fa-instagram
 {
-  color:deeppink;
+  color:#f05053;
 }
 
 .fa-twitter
@@ -195,7 +196,12 @@ strong{
 color: red;
 }
 
-.fa-whatsapp
+.fa-envelope-o,.email
+{
+color:coral;
+}
+
+.fa-whatsapp, .phone
 {
   color:springgreen;
 }
@@ -306,10 +312,10 @@ ul li a:hover span:nth-child(4) {
   background:#00acee;
 }
 .instagram:hover {
-  color: deeppink;
+  color: #f05053;
 }
 .instagram:hover span { 
-  background: deeppink;
+  background: #f05053;
 }
 .github:hover {
   color: darkmagenta;
