@@ -14,29 +14,12 @@
     <!-- font-awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <!-- jQuery -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script> -->
-    <!-- mail -->
+    <!-- email.js -->
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
-    <script type="text/javascript">
-    (function(){
-        emailjs.init("user_XxXZvptGYSdNBesa4e5KP");
-    })();  
-  
-    </script>
-
-    <!-- <script>
-      $(document).ready(function(e) {
-      $("#send").click(function(){
-        setTimeout("e",10000);
-        $("#email").val("");
-        $("#message").val("");
-        
-        });
-    });
-    </script> -->
-
   <!--end mail.js  -->
+
+
 
 </head>
 <body>
@@ -526,9 +509,9 @@
         <!-- panel -->
         <div class="column col-6 col-xs-12">
           <br>
-        <div class="panel" id="contact">
+        <div class="panel" >
        
-          <div class="panel-header text-center">
+          <div class="panel-header text-center" id="contact">
             <figure class="avatar avatar-lg">
               <img src="img/yo3.jpg" alt="Avatar">
             </figure>
@@ -584,22 +567,55 @@
               </div>
             </div>
           </div>
-          <div class="panel-footer">
+          <div class="panel-footer" >
             <br>
-            <form id="myform" onsubmit="emailjs.sendForm('default_service', 'contact', this); return false;" method="post">
+            <form id="myform" method="post">
             <div class="input-group">
               <input class="form-input" type="text" placeholder="E-mail" name="from_email" id="email">
              <a class="btn btn-primary input-group-btn">Email</a>
             </div>
             <br>
               <div class="input-group">
-              <input class="form-input" type="text" placeholder="Hello"  name="message" id="message">
-              <button class="btn btn-primary input-group-btn" id="send">Send</button>
+              <textarea class="form-input"  placeholder="Sent your message here!"  name="message" id="message" rows="5"></textarea>
+              <button class="btn btn-primary input-group-btn area" id="send">Send</button>
             </form>
             </div>
           </div>
         </div>
-     
+
+
+       <!-- email.js -->
+        <script type="text/javascript">
+          (function(){
+              emailjs.init("user_XxXZvptGYSdNBesa4e5KP");
+          })();
+        </script>
+
+        <script>
+                  var myform = $("form#myform");
+        myform.submit(function(event){
+          event.preventDefault();
+
+          // Change to your service ID, or keep using the default service
+          var service_id = "gmail";
+          var template_id = "contact";
+
+          myform.find("button").text("Sending...");
+          emailjs.sendForm(service_id,template_id,myform[0])
+            .then(function(){ 
+              alert("Message Sent!");
+              myform.find("button").text("Send");
+              myform.find("#email").val("");
+              myform.find("#message").val("");
+            }, function(err) {
+              alert("Send email failed!\r\n Response:\n " + JSON.stringify(err));
+              myform.find("button").text("Send");
+            });
+          return false;
+        });
+        </script>
+        <!-- end email.js -->
+
       
   <!-- end panel -->
         </div>

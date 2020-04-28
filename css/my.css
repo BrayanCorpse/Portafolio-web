@@ -161,6 +161,10 @@ strong{
 	white-space: nowrap
 }
 
+.area{
+	height: auto;
+}
+
 .card-subtitle{
 	font-weight: lighter;
 }
