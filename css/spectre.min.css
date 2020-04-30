@@ -2080,12 +2080,12 @@ summary.accordion-header::-webkit-details-marker {
 	display: inline-block;
 	font-size: .8rem;
 	font-weight: 300;
-	height: 1.6rem;
+	height: 3rem;
 	line-height: 1.25;
 	margin: 0;
 	position: relative;
 	vertical-align: middle;
-	width: 1.6rem
+	width: 3rem
 }
 
 .avatar.avatar-xs {
