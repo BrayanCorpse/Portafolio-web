@@ -191,7 +191,7 @@ strong{
 
 /* social links */
 
-.fa-facebook
+.fa-linkedin
 {
   color:#4267B2;
 }
@@ -314,10 +314,10 @@ ul li a:hover span:nth-child(4) {
   transition:transform .5s;
 }
 
-.facebook:hover {
+.linkedin:hover {
   color: #4267B2;
 }
-.facebook:hover span { 
+.linkedin:hover span { 
   background: #4267B2;
 }
 .twitter:hover {
