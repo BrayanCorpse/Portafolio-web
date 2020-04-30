@@ -2305,16 +2305,16 @@ summary.accordion-header::-webkit-details-marker {
 }
 
 .bar-slider .bar-slider-btn {
-	background: #5755d9;
+	background:transparent;
 	border: 0;
 	border-radius: 50%;
-	height: .6rem;
+	height: 2rem;
 	padding: 0;
 	position: absolute;
 	right: 0;
 	top: 50%;
 	transform: translate(50%, -50%);
-	width: .6rem
+	width: 2rem;
 }
 
 .bar-slider .bar-slider-btn:active {

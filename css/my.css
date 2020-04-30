@@ -2,7 +2,7 @@
 .start{
 	color: aliceblue;
 	display: inline-block;
-	font-size: .9rem;
+	margin-inline: .9rem;
 	letter-spacing: .5rem;
 	margin: .5rem .10rem;
 	padding: .2rem .4rem;
@@ -133,6 +133,12 @@ strong{
 	color: rgb(55, 52, 99);
 	font-size: 1rem;
 
+}
+
+.ser{
+	color: slateblue;
+	font-size: 1rem;
+	text-align: end;
 }
 
 /* btn-p */
@@ -341,4 +347,9 @@ ul li a:hover:nth-child(3) {
 ul li a:hover:nth-child(4) {
   color: #dd4b39;
 }
+/* end links */
 
+/* inline */
+.inline{
+	display: inline-block;
+}
